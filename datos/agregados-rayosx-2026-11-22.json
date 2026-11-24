@@ -1,0 +1,287 @@
+{
+  "estudio": "Fugas en el proceso de admisiones de instituciones educativas privadas en México (DOI 10.5281/zenodo.24450094)",
+  "fuente": "Vista Analítica de la aplicación Rayos X de Inscripciones (SuperLeads), réplica de sus cálculos sobre exportación de sólo lectura",
+  "corte_utc": "2026-11-22T22:21:05.977Z",
+  "regla_anonimizacion": "Sólo agregados; ningún grupo con menos de 5 instituciones o diagnósticos; sin nombres, ciudades ni moneda USD",
+  "base": {
+    "registros_no_archivados": 218,
+    "diagnosticos_terminados": 143,
+    "instituciones_terminadas": 139,
+    "borradores": 75,
+    "periodo": "2026-03-06/2026-11-20"
+  },
+  "diagnosticos_por_mes": {
+    "2026-03_a_2026-06": 10,
+    "2026-07": 19,
+    "2026-08": 22,
+    "2026-09": 26,
+    "2026-10": 32,
+    "2026-11": 34
+  },
+  "promedios": {
+    "matricula": {
+      "valor": 859.789855,
+      "n": 138
+    },
+    "capacidad": {
+      "valor": 1445.080882,
+      "n": 136
+    },
+    "ocupacion": {
+      "valor": 0.473035,
+      "n": 135
+    },
+    "colegiaturaEfectivaMxn": {
+      "valor": 4624.152493,
+      "n": 134
+    },
+    "ltvMxn": {
+      "valor": 217104.177459,
+      "n": 133
+    },
+    "conversionReal": {
+      "valor": 0.042597,
+      "n": 128
+    },
+    "cierreCita": {
+      "valor": 0.442937,
+      "n": 126
+    },
+    "costoPorAlumnoMxn": {
+      "valor": 4204.675016,
+      "n": 124
+    },
+    "permanenciaMeses": {
+      "valor": 41.772941,
+      "n": 136
+    },
+    "prospectosAlDia": {
+      "valor": 25.014818,
+      "n": 137
+    }
+  },
+  "medianas": {
+    "ocupacion": {
+      "valor": 0.49,
+      "n": 135
+    },
+    "conversionReal": {
+      "valor": 0.029531,
+      "n": 128
+    },
+    "cierreCita": {
+      "valor": 0.4,
+      "n": 126
+    },
+    "prospectosAlDia": {
+      "valor": 9,
+      "n": 137
+    },
+    "colegiaturaEfectivaMxn": {
+      "valor": 3075,
+      "n": 134
+    },
+    "costoPorAlumnoMxn": {
+      "valor": 1380.952381,
+      "n": 124
+    },
+    "matricula": {
+      "valor": 221,
+      "n": 138
+    },
+    "capacidad": {
+      "valor": 700,
+      "n": 136
+    },
+    "ltvMxn": {
+      "valor": 144000,
+      "n": 133
+    },
+    "permanenciaMeses": {
+      "valor": 36.33,
+      "n": 136
+    }
+  },
+  "conversion_real_tramos": {
+    "<2%": 47,
+    "2-5%": 42,
+    "5-10%": 26,
+    ">=10%": 13
+  },
+  "ocupacion_tramos": {
+    "<60%": 86,
+    "60-80%": 28,
+    ">=80%": 21
+  },
+  "cierre_en_cita_tramos": {
+    "<20%": 22,
+    "20–40%": 32,
+    "40–60%": 29,
+    "60–80%": 21,
+    "≥80%": 22
+  },
+  "prospecto_a_cita_implicita": {
+    "mediana": 0.074201,
+    "promedio": 0.129538,
+    "n": 118
+  },
+  "conversion_por_nivel": [
+    {
+      "nivel": "Preescolares",
+      "n": 49,
+      "promedio": 0.047028
+    },
+    {
+      "nivel": "Primarias",
+      "n": 49,
+      "promedio": 0.050944
+    },
+    {
+      "nivel": "Secundarias",
+      "n": 43,
+      "promedio": 0.05369
+    },
+    {
+      "nivel": "Prepas",
+      "n": 47,
+      "promedio": 0.046753
+    },
+    {
+      "nivel": "Universidades",
+      "n": 61,
+      "promedio": 0.04106
+    },
+    {
+      "nivel": "Academias",
+      "n": 24,
+      "promedio": 0.045682
+    }
+  ],
+  "herramientas": {
+    "base": 120,
+    "whatsapp": 84,
+    "crm_generico": 31,
+    "excel": 27,
+    "messenger": 16,
+    "otros_crm_o_erp": 15,
+    "solo_whatsapp": 41
+  },
+  "con_vs_sin_crm": {
+    "con_crm_o_erp": {
+      "n": 35,
+      "conversion_promedio": 0.039516,
+      "conversion_mediana": 0.02968,
+      "cierre_cita_promedio": 0.493939,
+      "prospecto_a_cita_mediana": 0.067123
+    },
+    "sin_crm_ni_erp": {
+      "n": 85,
+      "conversion_promedio": 0.044147,
+      "conversion_mediana": 0.029256,
+      "cierre_cita_promedio": 0.418025,
+      "prospecto_a_cita_mediana": 0.074201
+    }
+  },
+  "lugares_vacios_mediana": {
+    "valor": 288,
+    "n": 136
+  },
+  "oportunidad_anual_mxn_mediana": {
+    "valor": 10193040,
+    "n": 131
+  },
+  "rubros_que_se_cobran": [
+    {
+      "rubro": "Transporte",
+      "pct": 0.1379,
+      "n": 58
+    },
+    {
+      "rubro": "Útiles escolares",
+      "pct": 0.2373,
+      "n": 59
+    },
+    {
+      "rubro": "Asesorías extra",
+      "pct": 0.3051,
+      "n": 59
+    },
+    {
+      "rubro": "Viajes y campamentos",
+      "pct": 0.3103,
+      "n": 58
+    },
+    {
+      "rubro": "Eventos y festejos",
+      "pct": 0.3158,
+      "n": 57
+    },
+    {
+      "rubro": "Graduaciones",
+      "pct": 0.4828,
+      "n": 58
+    },
+    {
+      "rubro": "Uniforme de deportes",
+      "pct": 0.4828,
+      "n": 58
+    },
+    {
+      "rubro": "Libros",
+      "pct": 0.4915,
+      "n": 59
+    },
+    {
+      "rubro": "Uniforme escolar",
+      "pct": 0.5254,
+      "n": 59
+    },
+    {
+      "rubro": "Cafetería",
+      "pct": 0.6102,
+      "n": 59
+    }
+  ],
+  "llenado_por_bloque": [
+    {
+      "bloque": "Estado Actual",
+      "campos": 8,
+      "tasa_llenado": 0.4753
+    },
+    {
+      "bloque": "Conversión y Canales",
+      "campos": 8,
+      "tasa_llenado": 0.5367
+    },
+    {
+      "bloque": "Valor de Vida y Monetización",
+      "campos": 12,
+      "tasa_llenado": 0.323
+    },
+    {
+      "bloque": "Competencia",
+      "campos": 4,
+      "tasa_llenado": 0.3773
+    },
+    {
+      "bloque": "Personal Admisiones",
+      "campos": 7,
+      "tasa_llenado": 0.5465
+    },
+    {
+      "bloque": "Huella Digital",
+      "campos": 6,
+      "tasa_llenado": 0.3387
+    },
+    {
+      "bloque": "Signos Vitales",
+      "campos": 1,
+      "tasa_llenado": 0.2844
+    },
+    {
+      "bloque": "Cuándo entra la matrícula",
+      "campos": 3,
+      "tasa_llenado": 0.3563
+    }
+  ]
+}

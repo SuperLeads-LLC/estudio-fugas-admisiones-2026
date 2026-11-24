@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Si usas estos datos, cita el informe con su DOI."
+title: "Fugas en el proceso de admisiones de instituciones educativas privadas en México: datos agregados de 143 diagnósticos Rayos X de Inscripciones (2026)"
+type: dataset
+authors:
+  - family-names: "Jiménez Gallo"
+    given-names: "Víctor"
+    email: victor@superleads.mx
+    affiliation: "SuperLeads"
+version: "1.0"
+date-released: "2026-11-24"
+license: CC-BY-4.0
+doi: 10.5281/zenodo.24450094
+url: "https://observatorio.superleads.mx/estudios/fugas-admisiones-2026/"
+repository-code: "https://github.com/SuperLeads-LLC/estudio-fugas-admisiones-2026"
+keywords:
+  - admisiones escolares
+  - inscripciones
+  - embudo de conversión
+  - educación privada
+  - México
+  - school admissions
+  - enrollment
+preferred-citation:
+  type: report
+  title: "Fugas en el proceso de admisiones de instituciones educativas privadas en México: análisis de 143 diagnósticos Rayos X de Inscripciones (2026)"
+  authors:
+    - family-names: "Jiménez Gallo"
+      given-names: "Víctor"
+      affiliation: "SuperLeads"
+  year: 2026
+  month: 11
+  doi: 10.5281/zenodo.24450094
+  publisher:
+    name: "Zenodo"
+  url: "https://doi.org/10.5281/zenodo.24450094"

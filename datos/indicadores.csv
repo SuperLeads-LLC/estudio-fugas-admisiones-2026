@@ -1,0 +1,12 @@
+corte,indicador,unidad,promedio,mediana,n
+2026-11-22,matricula,alumnos,859.789855,221,138
+2026-11-22,capacidad,alumnos,1445.080882,700,136
+2026-11-22,ocupacion,proporcion,0.473035,0.49,135
+2026-11-22,colegiaturaEfectivaMxn,MXN por mes,4624.152493,3075,134
+2026-11-22,ltvMxn,MXN,217104.177459,144000,133
+2026-11-22,conversionReal,proporcion,0.042597,0.029531,128
+2026-11-22,cierreCita,proporcion,0.442937,0.4,126
+2026-11-22,costoPorAlumnoMxn,MXN,4204.675016,1380.952381,124
+2026-11-22,permanenciaMeses,meses,41.772941,36.33,136
+2026-11-22,prospectosAlDia,prospectos por dia,25.014818,9,137
+2026-11-22,prospectoACitaImplicita,proporcion,0.129538,0.074201,118
